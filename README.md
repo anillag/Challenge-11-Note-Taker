@@ -1,19 +1,22 @@
-# Note Taker Starter Code
+# Challenge 11 Note Taker
 
-GIVEN a note-taking application
+## Project Purpose
 
-<!-- WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page -->
+A note taking website complete with add / delete functionality.
 
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+## Page Built With
 
-<!-- WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page -->
+- Bootstrap CSS
+- JavaScript ES6 / ES2015
+- Express.js
+- UUID (npm package)
 
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+## Usage
+
+Visit https://peaceful-river-13392.herokuapp.com/ and click on Get Started. Type in a new note (both title and text are required), and the Save icon will show up in the upper-right hand corner. Click the Save icon to add the note to your list. Clicking on an existing note in the left-hand column will display the full title and full contents of the selected note. While viewing an existing note, you can click the Plus icon in the upper-right hand corner to start with a fresh note. Use the red Trash icon on the left-hand column to delete an individual note.
+
+![Screenshot of Note Taker interface](./public/assets/img/Note-Taker_screenshot.png)
+
+## Contributors
+
+Made with ❤️ by Joe Gallina (backend) and Trilogy Education Services (frontend)
